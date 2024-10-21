@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <title>DYAMI</title>
+    <!-- reset -->
+    <link rel="stylesheet" href="./assets/styles/reset.min.css">
+    <!-- font -->
+    <!-- 노토산스 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <!-- Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- favicon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon.ico">
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/styles/global.css">
+    <link rel="stylesheet" href="./index.css">
+    <!-- PC -->
+    <link rel="stylesheet" href="./index-pc.css">
+    <!-- 카카오 맵 script -->
+    <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=2ebe39690b5aef000c74f523879175a1"></script>
+    <script charset="UTF-8" src="https://t1.daumcdn.net/mapjsapi/js/main/4.4.19/kakao.js"></script>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="flex-wrap">
+        <!-- 로고 -->
+        <h1 class="logo">
+            <a href="#"">로고</a>
+        </h1>
+        <!-- 메뉴 -->
+        <nav>
+            <!-- PC -->
+            <ul class=" global_menu flex-wrap">
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SERVICE</a></li>
+                <li><a href="#">BOARD</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#">ELEMENT</a></li>
+                <li><a href="#">SHOP</a></li>
+                <li><a href="#">LOGIN</a></li>
+                <li><a href="#">JOIN</a></li>
+                </ul>
+
+                <!-- 모바일 -->
+                <a href="#" class="mobile_menu">
+                    <p>모바일메뉴</p>
+                </a>
+                </nav>
+    </header>
+
+    <!-- contents -->
+    <div class="contents">
+        <!-- 슬라이드 -->
+        <section class="main_slide">
+            <div class="mian_txt">
+                <h3>better creative</h3>
+                <h2>Art Direction<br>
+                    Branding<br>
+                    Web Design</h2>
+            </div>
+            <img src="./assets/images/hero-1.png" alt="img">
+        </section>
+        <img class="talk" src="./assets/images/consult_small_mono_pc.png" alt="img1">
+        <!-- 인트로 -->
+        <section class="main_intro">
+            <ul class="main_intro_list">
+                <li>
+                    <h3>Branding</h3>
+                    <p>We are a passionate digital design agency that specializes in beautiful and easy-to-use digital
+                        design & web development services.This theme does everything you could possibly want it to do
+                        and, it is beautifully designed.
+                    </p>
+                </li>
+                <li>
+                    <h3>Development</h3>
+                    <p>We are a passionate digital design agency that specializes in beautiful and easy-to-use digital
+                        design & web development services.This theme does everything you could possibly want it to do
+                        and, it is beautifully designed.
+                    </p>
+                </li>
+                <li>
+                    <h3>Analysis</h3>
+                    <p>We are a passionate digital design agency that specializes in beautiful and easy-to-use digital
+                        design & web development services.This theme does everything you could possibly want it to do
+                        and, it is beautifully designed.
+                    </p>
+                </li>
+                <li>
+                    <h3>Maketing</h3>
+                    <p>We are a passionate digital design agency that specializes in beautiful and easy-to-use digital
+                        design & web development services.This theme does everything you could possibly want it to do
+                        and, it is beautifully designed.
+                    </p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- 갤러리 -->
+        <section class="main_gallery">
+            <ul class="main_gallery_list">
+                <li>
+                    <img src="./assets/images/1.jpg" alt="img1">
+                    <a>Branding</a>
+                </li>
+                <li>
+                    <img src="./assets/images/2.jpg" alt="img2">
+                    <a>Development</a>
+                </li>
+                <li>
+                    <img src="./assets/images/7.jpg" alt="img7">
+                    <a>Analysis</a>
+                </li>
+                <li>
+                    <img src="./assets/images/4.jpg" alt="img4">
+                    <a>Marketing</a>
+                </li>
+                <li>
+                    <img src="./assets/images/5.jpg" alt="img5">
+                    <a>Design</a>
+                </li>
+                <li>
+                    <img src="./assets/images/6.jpg" alt="img6">
+                    <a>Startegy</a>
+                </li>
+                <li>
+                    <img src="./assets/images/3.jpg" alt="img4">
+                    <a>Startegy</a>
+                </li>
+            </ul>
+        </section>
+
+        <!-- 비지니스 -->
+        <section class="main_business">
+            <div class="main_business_txt">
+                <h2>Our Business</h2>
+                <p>We are a passionate digital design agency that specializes<br>
+                    in beautiful and easy-to-use digital design & web development services. </p>
+            </div>
+            <div class="main_business_list">
+                <figure>
+                    <img src="./assets/images/img-01.jpg" alt="img1">
+                    <figcaption>
+                        <strong>Brokerage & Trading</strong><br>
+                        <span>This theme does everything you could possibly want it to do</span>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="./assets/images/img-02.jpg" alt="img2">
+                    <figcaption>
+                        <strong>Investment Banking</strong><br>
+                        <span>This theme does everything you could possibly want it to do</span>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="./assets/images/img-03.jpg" alt="img3">
+                    <figcaption>
+                        <strong>Contracts & Research</strong><br>
+                        <span>This theme does everything you could possibly want it to do</span>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="./assets/images/img-04.jpg" alt="img4">
+                    <figcaption>
+                        <strong>Award winning agency</strong><br>
+                        <span>This theme does everything you could possibly want it to do</span>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- 유튜브 -->
+        <section class="main_youtube flex-wrap">
+            <h2>Our Youtube</h2>
+            <p>In an ideal world this text wouldn’t exist, a client would acknowledge the importance of having web copy
+                before the design starts. Needless to say it’s very important, content is king and people are beginning
+                to understand that. However, back over in reality some project schedules and budgets don’t allow for web
+                copy to be written before the design phase, this is sad but true.
+
+            </p>
+            <iframe
+                src="https://www.youtube.com/embed/IWVJq-4zW24?si=Uao4Y8TUAmYUq6we&amp;controls=0&loop=1&mute=1&autoplay=1"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" muted loop autoplay class="youtube"></iframe>
+        </section>
+
+        <!-- 서비스 -->
+        <section class="main_service">
+            <h2>Our Service</h2>
+            <ul class="main_service_list">
+                <li>
+                    <img src="./assets/images/img-08.jpg" alt="img1">
+                    <h3>Strategy</h3>
+                    <p>This theme does everything you could possibly want it to do and, it is beautifully designed.</p>
+                </li>
+                <li>
+                    <img src="./assets/images/img-07.jpg" alt="img1">
+                    <h3>Analysis</h3>
+                    <p>This theme does everything you could possibly want it to do and, it is beautifully designed.</p>
+                </li>
+                <li>
+                    <img src="./assets/images/img-06.jpg" alt="img1">
+                    <h3>Development</h3>
+                    <p>This theme does everything you could possibly want it to do and, it is beautifully designed.</p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- 협찬사 -->
+        <div class="main_brand">
+            <ul class="main_brand_list">
+                <li><a href="#"><img src="./assets/images/client-01.png" alt=""></a></li>
+                <li><a href="#"><img src="./assets/images/client-02.png" alt=""></a></li>
+                <li><a href="#"><img src="./assets/images/client-03.png" alt=""></a></li>
+                <li><a href="#"><img src="./assets/images/client-04.png" alt=""></a></li>
+                <li><a href="#"><img src="./assets/images/client-05.png" alt=""></a></li>
+                <li><a href="#"><img src="./assets/images/client-06.png" alt=""></a></li>
+                <li><a href="#"><img src="./assets/images/client-07.png" alt=""></a></li>
+                <li><a href="#"><img src="./assets/images/client-08.png" alt=""></a></li>
+                <li><a href="#"><img src="./assets/images/client-09.png" alt=""></a></li>
+                <li><a href="#"><img src="./assets/images/client-10.png" alt=""></a></li>
+                <li><a href="#"><img src="./assets/images/client-11.png" alt=""></a></li>
+                <li><a href="#"><img src="./assets/images/client-12.png" alt=""></a></li>
+            </ul>
+        </div>
+
+
+        <!-- 로케이션 -->
+        <section class="main_location">
+            <h2>Location</h2>
+            <ul class="main_location_list">
+                <li><a href="#">OFFICE</a></li>
+                <li><a href="#">FACTORY</a></li>
+            </ul>
+            <!-- kakao map -->
+            <div class="loaction-kakao">
+                <div id="kakao-Map" class="kakao-map">지도</div>
+            </div>
+
+            <ul class="location_office_address">
+                <li>
+                    <strong>address</strong><br>
+                    <span>795 Folsom Ave, Suite 600 San Francisco</span>
+                </li>
+                <li>
+                    <strong>tel</strong><br>
+                    <span>02-1234-5678</span>
+                </li>
+                <li>
+                    <strong>fax</strong><br>
+                    <span>02-1234-5678</span>
+                </li>
+                <li>
+                    <strong>sub</strong><br>
+                    <span>Working at the nexus of aesthetics and sustainability to craft meaningful
+                        design ideas that endure.</span>
+                </li>
+                <li>
+                    <strong>bus</strong><br>
+                    <span>This theme does everything you could possibly want it to do and, it is
+                        beautifully designed.</span>
+                </li>
+            </ul>
+
+        </section>
+
+        <!-- 컨텍트어스 -->
+        <section class="main_contact">
+            <h2>Let's talk</h2>
+            <p>
+                Herb multiply also earth one you'll a wherein form creature be. <br>Unto land open creature give
+                their
+                midst together, fruit good thing multiply fill it.
+            </p>
+            <a href="#">CONTACT US</a>
+        </section>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <section class="footer_info">
+            <div class="footer_logo">
+                <img src="./assets/images/logo.png" alt="ft-logo">
+            </div>
+            <div class="footer_info_list">
+                <h3>CONTACT</h3>
+                <p>02 1234 5678<br>
+                    form.yami@gmail.com</p>
+            </div>
+            <div class="footer_info_list">
+                <h3>LOCATION</h3>
+                <p>795 Folsom Ave, Suite 600<br>
+                    San Francisco, CA 94107</p>
+            </div>
+            <div class="footer_info_list">
+                <h3>SOCIAL</h3>
+                <ul class="sns flex-wrap">
+                    <li><img src="./assets/images/facebook_1216882.png" alt="sns1"></li>
+                    <li><img src="./assets/images/instagram_739193.png" alt="sns2"></li>
+                    <li><img src="./assets/images/youtube.png" alt="sns3"></li>
+                    <li><img src="./assets/images/apple.png" alt="sns4"></li>
+                    <li><img src="./assets/images/vimeo.png" alt="sns5"></li>
+                </ul>
+            </div>
+        </section>
+        <div class="footer_copyright">
+            <p>Copyrights © 2020 All Rights Reserved by DYAMI.</p>
+            <p>Terms of Use / Privacy Policy</p>
+        </div>
+    </footer>
+    
+    <!-- 카카오맵 -->
+    <script>
+        const mapContainer = document.getElementById('kakao-Map'), // 지도를 표시할 div 
+            mapOption = {
+                center: new kakao.maps.LatLng(
+                    33.450269, 126.570140), // 지도의 중심좌표
+                level: 3, // 지도의 확대 레벨
+                mapTypeId: kakao.maps.MapTypeId.ROADMAP // 지도종류
+            };
+
+        // 지도를 생성한다 
+        const map = new kakao.maps.Map(mapContainer, mapOption);
+
+        // 지도에 마커를 생성하고 표시한다
+        const marker = new kakao.maps.Marker({
+            position: new kakao.maps.LatLng(
+                33.450269, 126.570140), // 마커의 좌표
+            map: map // 마커를 표시할 지도 객체
+        });
+    </script>
+</body>
+
+</html>

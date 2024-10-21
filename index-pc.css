@@ -1,0 +1,193 @@
+@charset "utf-8";
+
+@media (min-width:1200px) {
+    header {
+        padding: 0 30px;
+        display: flex;
+        justify-content: space-between;
+        background-color: #fff;
+    }
+    header nav .global_menu {
+        display: flex;
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+    header nav .global_menu li {
+        padding: 29px 15px;
+    }
+
+    header nav .global_menu a {
+        display: block;
+    }
+    header nav .global_menu li:hover {
+        background-color: #69a9c5;;
+        color: #fff;
+    }
+    header .mobile_menu {
+        display: none;
+    }
+
+    .main_slide {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 90vh;
+    }
+    .main_slide h3 {
+        margin-top: 15vh;
+        margin-left: 10vw;
+        text-align: left;margin
+    }
+    .main_slide h2 {
+        margin-left: 10vw;
+        width: 30vw;
+        font-size: 4.5rem;
+        text-align: left;
+        margin-top: 0;
+    }
+    .main_slide img {
+        max-width: 100%;
+        grid-column: 2 / 3;
+        transform: translateY(-100px);
+    }
+    .main_intro_list { 
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 1fr 1fr;
+    }
+    .main_intro_list li {
+        padding: 48px 48px;
+        border-bottom: none;
+    }
+    .main_intro_list h3{
+        font-size: 32px;
+        margin: 1rem;
+    }
+    .main_intro_list li:nth-child(1),
+    .main_intro_list li:nth-child(2) {
+        border-bottom: 1px solid #ddd;
+    }
+    .main_intro_list li:nth-child(odd) {
+        border-right: 1px solid #ddd;
+    }
+    .main_intro_list li p {
+        font-size: 18px;
+        margin: 1rem;
+    }
+    .main_gallery_list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-auto-rows: 1fr 1fr 1fr;
+    } 
+    .main_gallery .main_gallery_list li {
+        margin-bottom: 0;
+    }
+    .main_gallery_list li img {
+        vertical-align: bottom;
+    }
+    .main_gallery_list li:first-child {
+        grid-column: 1 /3;
+        grid-row: 1 / 3;
+    }
+    .main_gallery_list li:nth-child(4) {
+        grid-column: 3 / 5;
+    }
+    .main_gallery_list li:nth-child(5) {
+        grid-column: 1 /3;
+    }
+    .main_business .main_business_txt h2 {
+        font-size: 3.5rem;
+    }
+    .main_business_list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .main_business_list img {
+        padding: 12px;
+    }
+    .main_business .main_business_list strong {
+        font-size: 1.5rem;
+    }
+    .main_business .main_business_list span {
+        font-size: 18px;
+    }
+    .main_youtube {
+        background-color: rgb(248, 249, 250);
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 72px;
+        box-sizing: border-box;
+    }
+    .main_youtube h2{
+        font-size: 56px;
+    }
+    .main_youtube p {
+        text-align: start;
+        width: 48%;
+        font-size: 1.5rem;
+        margin-bottom: 50px;
+    }
+    .main_youtube iframe {
+        width: 100%;
+    }
+    .main_service h2 {
+        font-size: 3.5rem;
+    }
+    .main_service li:nth-child(odd){
+        display: block;
+    }
+    .main_service_list {
+        display: flex;
+    }
+    .main_service_list li {
+        margin: 0 20px;
+    }
+    .main_service .main_service_list li h3 {
+        font-size: 1.5rem;
+    }
+    .main_service .main_service_list li p {
+        font-size: 18px;
+    }
+    .main_brand_list {
+        padding: 72px 0;
+        display: grid;
+        grid-template-columns: repeat(6 , 1fr);
+        opacity: 0.5;
+    }
+    .main_location h2 {
+        font-size: 3.5rem;
+    }
+    .main_location_list li a {
+        font-size: 28px;
+    }
+    .main_location_list li a:hover {
+        border-bottom: 3px solid #000;
+    }
+    .location_office_address {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .location_office_address li{
+        display: flex;
+    }
+    .location_office_address li strong {
+        width: 15vw;
+    }
+    .main_contact {
+        padding: 72px;
+    }
+    .main_contact h2 {
+        font-size: 3.5rem;
+    }
+    .main_contact p {
+        font-size: 28px;
+    }
+    footer .footer_info {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin: 0 100px;
+    }
+    .footer_logo img {
+        width: 10vw;
+    }
+}

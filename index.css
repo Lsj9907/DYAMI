@@ -1,0 +1,320 @@
+@charset "utf-8";
+
+
+/**** 콘텐츠 ****/
+
+.main_slide {
+    height: 85.7vh;
+    padding: 48px 12px;
+    background: url(./assets/images/hero-bg.png) no-repeat 100% / cover;
+    background-position: 50%, 50%;
+}
+.main_slide h3{
+    z-index: 99;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+.main_slide h2{
+    margin: 24px 18px;
+    line-height: 1.3;
+    z-index: 999;
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+
+/**** 인트로 ****/
+
+.main_intro {
+    padding: 32px 26px;
+}
+.main_intro_list {}
+.main_intro_list h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    margin: 0 0 18px 0;
+}
+.main_intro_list p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+.main_intro_list li {
+    padding: 16px;
+    border-bottom: 1px solid #eeeeee ;
+}
+.main_intro_list li:last-child {
+    border: none;
+}
+
+
+/**** 갤러리 ****/
+
+.main_gallery {
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.main_gallery .main_gallery_list {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.main_gallery .main_gallery_list li {
+    position: relative;
+    margin-bottom: 6px;
+}
+.main_gallery .main_gallery_list a {
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0; right: 0; left: 0; bottom: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: 0.3s;
+    opacity: 0;
+}
+.main_gallery .main_gallery_list a:hover{
+    opacity: 1;
+}
+
+
+/**** 비지니스 ****/
+.main_business {
+    padding: 32px 26px;
+}
+.main_business .main_business_txt {
+    padding: 0 12px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.main_business .main_business_txt h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 2.135rem;
+    margin-bottom: 24px;
+}
+.main_business .main_business_txt p {
+    position: relative;
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.8;
+    text-transform: initial;
+    padding: 20px 0 96px;
+}
+.main_business .main_business_txt p::after {
+    content: '';
+    width: 50px;
+    height: 2px;
+    position: absolute;
+    border-bottom: 2px solid #222;
+    top: 0; right: 0; left: 0;
+    margin: 0 auto;
+}
+.main_business .main_business_list {
+    padding: 0 12px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.8;
+    text-transform: initial;
+}
+.main_business_list figure {
+    padding-bottom: 15px;
+}
+.main_business_list figcaption {
+    padding: 24px;
+    margin-bottom: 7px;
+}
+
+
+/**** 유튜브 ****/
+.main_youtube {
+    padding: 32px 26px;
+    flex-wrap: wrap;
+}
+.main_youtube h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 2.135rem;
+    margin-bottom: 24px;
+    padding: 0 12px;
+}
+.main_youtube p {
+    box-sizing: border-box;
+    margin: 0 0 18px 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 300;
+    padding: 0 12px;
+}
+.main_youtube iframe {
+    aspect-ratio: 16 / 9;
+    margin: 0 auto;
+    margin-top: 30spx;
+    padding: 12px;
+}
+
+
+/**** 서비스 ****/
+.main_service {
+    padding: 32px 26px;
+}
+.main_service h2 {
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 2.135rem;
+    margin-bottom: 100px;
+    padding: 0 12px;
+}
+.main_service h2::after {
+    content: '';
+    width: 50px;
+    height: 2px;
+    position: absolute;
+    border-bottom: 2px solid #222;
+    right: 0; left: 0; bottom: 0;
+    margin: 0 auto -30px;
+}
+.main_service li:nth-child(odd) {
+    display: none;
+}
+.main_service .main_service_list li h3 {
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    margin-bottom: 8px;
+    padding: 24px 24px 0;
+}
+.main_service .main_service_list li p {
+    font-size: 1rem;
+    opacity: 0.7;
+    padding: 0 24px;
+}
+
+/**** 협찬사 ****/
+
+.main_brand {
+    padding: 32px 26px;
+}
+.main_brand_list {
+    box-sizing: content-box;
+    vertical-align: middle;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 12px;
+}
+.main_brand_list li{
+    padding: 20px 0;
+}
+.main_brand_list img {
+}
+
+/**** 로케이션 ****/
+.main_location {
+    padding: 32px 26px;
+}
+.main_location h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 2.135rem;
+    margin: 0 0 24px;
+    padding: 0 12px;
+}
+.main_location_list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.5;
+    border-bottom: 1px solid #dddddd;
+    box-sizing: border-box;
+}
+.main_location_list li a {
+    display: block;
+    padding: 8px 16px;
+}
+.main_location_list li:hover{
+    border-bottom: 3px solid #000;
+}
+.main_location .loaction-kakao {
+    background: url(./assets/images/bg_worldmap.png) no-repeat 50% / cover;
+    width: 90vw;
+    aspect-ratio: 3 / 1;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+.main_location .loaction-kakao .kakao-map{
+    width: 96%;
+    height: 50vh;
+    margin: 0 auto;
+    aspect-ratio: 3 / 1;
+}
+.location_office_address li {
+    padding: 16px 0;
+    border-bottom: 1px solid#ddd;
+    font-size: 17px;
+    font-weight: 600;
+}
+.location_office_address li strong {
+    text-transform: uppercase;
+}
+.location_office_address li span {
+    font-weight: 400;
+}
+.location_office_address li:last-child {
+    border-bottom: 1px solid#000;
+}
+
+/**** 컨텍트어스 ****/
+.main_contact {
+    box-sizing: border-box;
+    padding: 32px 24px;
+    background-image: linear-gradient(rgba(105, 169, 197, 0.8), rgba(105, 169, 197, 0.9)), url(./assets/images/img-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    color: rgb(238, 238, 238);
+    text-align: center;
+}
+.main_contact h2 {
+    padding: 0 12px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 2.135rem;
+    margin-bottom: 18px;
+}
+.main_contact p {
+    padding: 0 12px;
+    margin-bottom: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 1.25rem;
+}
+.main_contact a {
+    display: inline-block;
+    border: 2px solid #ffffff;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin: 20px 5px 5px 5px;
+    padding: 9px 32px;
+    font-weight: 700;
+    transition: 0.5s;
+}
+.main_contact a:hover {
+    background-color: #fff;
+    color: #222;
+}
